@@ -1,0 +1,14 @@
+
+mixin color(name, code, class_box)
+  div(class=class_box class='color-box').color-box
+  h2.color-name= name
+    p.color-code= code
+
+.colors-and-types__color
+  +color('Dark shade 100%', '#1F2041', 'color-box_ds100')
+  +color('Dark shade 75%', '#1F2041', 'color-box_ds75')
+  +color('Dark shade 50%', '#1F2041', 'color-box_ds50')
+  +color('Dark shade 25%', '#1F2041', 'color-box_ds25')
+  +color('Dark shade 5%', '#1F2041', 'color-box_ds5')
+  +color('Purple', '#BC9CFF', 'color-box_pur')
+  +color('Green', '#6FCF97', 'color-box_gr')

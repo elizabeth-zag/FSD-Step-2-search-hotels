@@ -1,0 +1,54 @@
+@import "color-vars.scss";
+
+@mixin color-box($color) {
+  background-color: $color;
+}
+
+// general styles
+
+.colors-and-types__color {
+  margin-left: 150px;
+  margin-top: 145px;
+}
+
+.color-name {
+  font-family: "Quicksand Bold";
+  font-size: 19px;
+  padding-left: 110px;
+  color: #1f2041;
+}
+
+.color-code {
+  font-family: "Quicksand Light";
+}
+
+.color-box {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+// modificators
+
+.color-box_ds100 {
+  @include color-box($dark-shade-100);
+}
+.color-box_ds75 {
+  @include color-box($dark-shade-75);
+}
+.color-box_ds50 {
+  @include color-box($dark-shade-50);
+}
+.color-box_ds25 {
+  @include color-box($dark-shade-25);
+}
+.color-box_ds5 {
+  @include color-box($dark-shade-5);
+}
+.color-box_pur {
+  @include color-box($purple);
+}
+.color-box_gr {
+  @include color-box($green);
+}

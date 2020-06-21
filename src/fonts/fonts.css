@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(Montserrat-Bold.woff) format("woff"), url(Montserrat-Bold.ttf) format("truetype"),
+    url(Montserrat-Bold.svg) format("svg");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url(Montserrat-Regular.woff) format("woff"), url(Montserrat-Regular.ttf) format("truetype"),
+    url(Montserrat-Regular.svg) format("svg");
+}
+
+@font-face {
+  font-family: "Quicksand Bold";
+  src: url(Quicksand-Bold.woff) format("woff"), url(Quicksand-Bold.ttf) format("truetype"),
+    url(Quicksand-Bold.svg) format("svg");
+}
+
+@font-face {
+  font-family: "Quicksand Light";
+  src: url(Quicksand-Light.woff) format("woff"), url(Quicksand-Light.ttf) format("truetype"),
+    url(Quicksand-Light.svg) format("svg");
+}
+
+@font-face {
+  font-family: "Quicksand Regular";
+  src: url(Quicksand-Regular.woff) format("woff"), url(Quicksand-Regular.ttf) format("truetype"),
+    url(Quicksand-Regular.svg) format("svg");
+}

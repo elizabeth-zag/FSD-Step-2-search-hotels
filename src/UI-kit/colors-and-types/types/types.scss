@@ -1,0 +1,48 @@
+@import "../colors/color-vars.scss";
+
+@mixin type($ff, $fs, $col) {
+  font-family: $ff;
+  font-size: $fs;
+  color: $col;
+}
+
+.colors-and-types__types {
+  margin-top: 145px;
+  margin-left: 30px;
+}
+
+.colors-and-types__headings {
+  margin-top: 145px;
+  margin-left: 435px;
+}
+
+.h1 {
+  @include type("Quicksand Bold", "24px", $dark-shade-100);
+}
+
+.h2 {
+  @include type("Quicksand Bold", "19px", $dark-shade-100);
+}
+
+.h3 {
+  @include type("Montserrat Bold", "12px", $dark-shade-100);
+}
+
+.p {
+  @include type("Montserrat Regular", "14px", $dark-shade-75);
+}
+
+.colors-and-types__h1 {
+  @include type("Montserrat Regular", "24px", $dark-shade-25);
+}
+
+.colors-and-types__h2 {
+  @include type("Montserrat Regular", "19px", $dark-shade-25);
+}
+
+.colors-and-types__h3 {
+  @include type("Montserrat Regular", "12px", $dark-shade-25);
+}
+.colors-and-types__p {
+  @include type("Montserrat Regular", "14px", $dark-shade-25);
+}

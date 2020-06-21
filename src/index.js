@@ -1,0 +1,5 @@
+import './general/normalize.css'
+import './fonts/fonts.css'
+import './UI-kit/colors-and-types/colors-and-types.scss'
+import './UI-kit/colors-and-types/colors/colors.scss'
+import './UI-kit/colors-and-types/types/types.scss'
